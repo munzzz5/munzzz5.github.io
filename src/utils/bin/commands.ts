@@ -161,7 +161,7 @@ export const chocolate = async (args: string[]): Promise<string> => {
                         2. Husk removal machine 
                         3. Internal Company Sofwares for Marketing. 
   
-                        for India's First Chocolate Taster<u><a href="https://www.linkedin.com/in/beantobar/">L. Nitin Chordia</a></u> 
+                        for India's First Chocolate Taster <u><a href="https://www.linkedin.com/in/beantobar/">L. Nitin Chordia</a></u> 
         * Tools used - Python pandas, numpy, matplotlib, plotly
         * Team size: 1
         * Manager: L. Nitin Chordia: +919600064846
@@ -171,7 +171,8 @@ export const chocolate = async (args: string[]): Promise<string> => {
 };
 
 export const currentWork = async (args: string[]): Promise<string> => {
-  return `<b style="background-color:green;color:black;">Komplete : </b>
+  return `
+  <b style="background-color:green;color:black;">Komplete : </b>
         * Description - Developing an environment which rewards and habituates productivity
                         and helping you understand your subsconscience habits and 
                         sell the data as products back to you, rather than other :P
@@ -188,7 +189,12 @@ if you want to help, you can type 'donate'.`;
 };
 export const ls = async (args: string[]): Promise<string> => {
   return `
-  Just my resume honestly.
+  listing what I want:
+  1. Songs - Ali Gatie, Hasan Raheem, and Daftpunk, Parudeesa (Malayalam song), Trance (movie) songs
+  2. I play football mainly
+  3. I'm an active person at home
+  4. I love dota2
+
   `;
 };
 export const date = async (args: string[]): Promise<string> => {
