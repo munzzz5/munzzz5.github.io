@@ -1,0 +1,40 @@
+
+{
+  "readmeUrl": "https://github.com/munzzz5/munzzz5/blob/main/README.md",
+  "title": "About Me",
+  "name": "Akshay Bhandari",
+  "ascii": "camelcase",
+  "ps1_hostname": "Me",
+  "ps1_username": "You",
+  "social": {
+    "github": "https://github.com/munzzz5",
+    "linkedin": "https://www.linkedin.com/in/akshay8080/",
+    "medium":"https://medium.com/@akshaybhandari_20437"
+  },
+  "email": "akshay.b1@outlook.com",
+  "location": "https://goo.gl/maps/hStbKYUQr9MsjNBZ6",
+  "repo": "https://github.com/munzzz5/",
+  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  
+  
+  "colors": {
+    "light": {
+      "background": "#000000",
+      "foreground": "#FFFFFF",
+      "yellow": "#D79921",
+      "green": "#00FF00",
+      "gray": "#7C6F64",
+      "blue": "#0000FF",
+      "red": "#FF0000"
+    },
+    "dark": {
+      "background": "#000000",
+      "foreground": "#FFFFFF",
+      "yellow": "#5E81AC",
+      "green": "#00FF00",
+      "gray": "#88C0D0",
+      "blue": "#0000FF",
+      "red": "#FF0000"
+    }
+  }
+}
