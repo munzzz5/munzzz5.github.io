@@ -37,8 +37,8 @@ export const repo = async (args: string[]): Promise<string> => {
   window.open(`${config.repo}`);
   return 'Opening Github repository...';
 };
-export const readSomething = async (args: string[]): Promise<string> => {
-  window.open(`${config.social.medium}`);
+export const readsomething = async (args: string[]): Promise<string> => {
+  window.open(`${config.social.mediumArticle2}`);
   return 'Opening Medium article';
 };
 
@@ -48,11 +48,12 @@ export const about = async (args: string[]): Promise<string> => {
 <b style="background-color:yellow; color:black; ">Hi, I am ${config.name}.</b> 
 Welcome to my website!
 I'm a developer with skills in:
-<b style="color:#ff3399;">1. Python [Django, OOPS, API consumption, Pandas, Matplotlib]</b>
+<b style="color:#ff3399;">1. Python [Django, general OOPS, API consumption, Pandas, Matplotlib]</b>
 <b style="color:#ff3399;">2. dotnet core 6 MVC with entity framework</b>
 <b style="color:#ff3399;">3. Flutter dart [basic]</b>
 <b style="color:#ff3399;">4. I have 2 doggos and one cat. Tom, Jerry, Noorie.</b>
-<b style="color:#ff3399;">5. I brag about the fact that i got accepted into GitHub CoPilots Beta batch.</b>
+<b style="color:#ff3399;">5. I brag that i got accepted into GitHub CoPilots Beta batch.</b>
+<b style="color:#ff3399;">6. I love playing dota2.</b>
 More about me:
 'sumfetch' - short summary.
 'resume' - my latest resume.
@@ -118,13 +119,13 @@ export const whoami = async (args: string[]): Promise<string> => {
 
 export const blood = async (args: string[]): Promise<string> => {
   return `<b style="background-color:green;color:black;">Community Service Experience : </b>
-          * Youth Red Cross Member - Manage blood donations,
-                              and awareness/donation based events for
-                              betterment of the community.
+          * Youth Red Cross Member - Managed blood donations,
+                              and awareness/material donation based events for
+                              betterment of the community in the vicinity.
           * Technical Work - <u><a href="https://github.com/munzzz5/BloodDonation">Android App for BloodManagementSystem (BMS)</a></u>
-          * Total Blood Donations arranged- 500+
+          * Total Blood Donations arranged - 500+
           * Total Blood Donations made - 30+
-          * Team Size- 25+
+          * Team Size - 25+
        `;
 };
 export const music = async (args: string[]): Promise<string> => {
@@ -134,8 +135,10 @@ export const music = async (args: string[]): Promise<string> => {
         * Also currently working on spotify audio features to group music
           by mood and understand the music markets of regions of India.
 
-        * Tools used - Python Tkinter, Youtube data v3 API's, OAuth2, pandas
+        * Tools used - Python Tkinter, Youtube data v3 API's, 
+          OAuth2, pandas, Spotipy
         * Team size: 4
+
         * Manager: Ruchika Gupta: +918056012500
   
   
@@ -143,7 +146,7 @@ export const music = async (args: string[]): Promise<string> => {
 };
 export const windmill = async (args: string[]): Promise<string> => {
   return `<b style="background-color:green;color:black;">Texonic Pvt. Ltd. :</b> 
-        * Description - Worked on analysis 11 year olf data to provide insights on 600-800KWH machine performance
+        * Description - Worked on analysis 11 year old data to provide insights of 600-800KWH WEG performance
                         Which allowed us to predict the performance of the machine in the future
                         And seek clarification from the AMC contractors. 
         * Tools used - Python pandas, numpy, matplotlib, plotly
@@ -156,7 +159,7 @@ export const windmill = async (args: string[]): Promise<string> => {
 };
 export const chocolate = async (args: string[]): Promise<string> => {
   return `<b style="background-color:green;color:black;">Kocoatrait Pvt. Ltd. :</b> 
-        * Description - Build a series of machine prototypes ranging from
+        * Description - Built a series of machine prototypes ranging from:
                         1. <u><a href="https://github.com/munzzz5/temperaturemonitor">Environment monitoring system</a></u>
                         2. Husk removal machine 
                         3. Internal Company Sofwares for Marketing. 
@@ -173,9 +176,9 @@ export const chocolate = async (args: string[]): Promise<string> => {
 export const currentwork = async (args: string[]): Promise<string> => {
   return `
   <b style="background-color:green;color:black;">Komplete : </b>
-        * Description - Developing an environment which rewards and habituates productivity
-                        and helping you understand your subsconscience habits and 
-                        sell the data as products back to you, rather than other :P
+        * Description - Developing an environment which rewards and forms a habit of productivity
+                        and helps understand your subsconscious habits  
+                        and give the data back to you in a meaningful format, rather than the status quo rn :P
         * Tools used - NLP (Spacy, HuggingFaceModels), Django, Flutter, Firebase
         * Team size: 2
         * Manager: <u><a href="mailto:${config.email}">Me</a></u>
@@ -191,9 +194,9 @@ export const ls = async (args: string[]): Promise<string> => {
   return `
   listing what I want:
   1. Songs - Ali Gatie, Hasan Raheem, and Daftpunk, Parudeesa (Malayalam song), Trance (movie) songs
-  2. I play football mainly
-  3. I'm an active person at home
-  4. I love dota2
+  2. I play football and badminton sometimes 
+  3. I'm an active person at home and don't like going out much.
+  4. I love dota2 -  <u><a href="https://s.team/p/cnnq-gffd/BWJPVJWQ" target="_blank">DaiMachaDai</a></u>
 
   `;
 };
@@ -225,13 +228,26 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `<b style="  color:#66ff33  ;">
-  ::::::::      :::     ::::    ::::  :::::::::: :::        ::::::::      :::      ::::::::  ::::::::::  
-  :+:    :+:   :+: :+:   +:+:+: :+:+:+ :+:        :+:       :+:    :+:   :+: :+:   :+:    :+: :+:        
-  +:+         +:+   +:+  +:+ +:+:+ +:+ +:+        +:+       +:+         +:+   +:+  +:+        +:+        
-  +#+        +#++:++#++: +#+  +:+  +#+ +#++:++#   +#+       +#+        +#++:++#++: +#++:++#++ +#++:++#   
-  +#+        +#+     +#+ +#+       +#+ +#+        +#+       +#+        +#+     +#+        +#+ +#+        
-  #+#    #+# #+#     #+# #+#       #+# #+#        #+#       #+#    #+# #+#     #+# #+#    #+# #+#        
-   ########  ###     ### ###       ### ########## ########## ########  ###     ###  ########  ########## 
+    Oo    o          o                                                               
+   o  O   O          O                                                                
+  O    o  o          o                                                                
+ oOooOoOo o          O                                                                
+ o      O O  o  .oOo OoOo. .oOoO' O   o                                               
+ O      o OoO   Ooo. o   o O   o  o   O                                               
+ o      O o  O     O o   O o   O  O   o                                               
+ O.     O O   o OoO' O   o OoO'o   OoOO                                               
+                                      o                                               
+                                    OoO'                                               
+  .oO        .oOOOo.                         o   .oOOOo.                           Oo.  
+ .O         .O     o                         O  .O     o                             o. 
+ O          o                                o  o                                     o 
+ o          o                                O  o                                     O 
+ O          o          .oOoO'  oOOoOO. .oOo. o  o         .oOoO' .oOo  .oOo.          o 
+ o          O          O   o   O  o  o OooO' O  O         O   o   Ooo. OooO'          O 
+ O          o     .o   o   O   o  O  O O     o   o     .o o   O      O O              o 
+  o          OoooO'    OoO'o   O  o  o  OoO' Oo   OoooO'   OoO'o  OoO'  OoO'         O' 
+   Oo                                                                             oO'  
+                                                                                       
 </b>
 Type 'help' to see the list of available commands.
 Type 'about' for small relevant info on me.
