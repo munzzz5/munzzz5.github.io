@@ -27,7 +27,7 @@ Type <b style="color:#00ccff;">'socialWork'</b> for info on community service [L
 <b>Type <b style="color:#00ccff;">'windmill'</b> or <b style="color:#00ccff;">'chocolate'</b> or <b style="color:#00ccff;">'music'</b> or <b style="color:#00ccff;">'blood'</b> for my project in a snippet</b>
 Type <b style="color:#00ccff;">'currentWork'</b> for... well my current project!
 Type <b style="color:#00ccff;">'repo'</b> or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
-Type <b style="color:#00ccff;">'weather [city]'</b> for the weather.
+Type <b style="color:#00ccff;">'weather city'</b> for the weather.
 
 `;
 };
@@ -249,15 +249,16 @@ export const banner = (args?: string[]): string => {
    Oo                                                                             oO'  
                                                                                        
 </b>
-Type 'help' to see the list of available commands.
-Type 'about' for small relevant info on me.
-Type 'resume' to go to my resume.
-Type 'sumfetch' to display summary.
-Type 'readSomething' to read my work!
-Type 'socialWork' for info on community service [Looking for collab]
-<b>Type 'windmill' or 'chocolate' or 'music' or 'blood' for my project in a snippet</b>
-Type 'currentWork' for... well my current project!
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
-Type 'weather [city]' for the weather.
+<b style="background-color:white; color:black;"> TYPE THE COMMANDS IN THE PROMPT </b>
+Type <b style="background-color:purple; color:black;">'help'</b> to see the list of available commands.
+Type <b style="background-color:purple; color:black;">'about' </b>for small relevant info on me.
+Type <b style="background-color:purple; color:black;">'resume' </b>to go to my resume.
+Type <b style="background-color:purple; color:black;">'sumfetch'</b> to display summary.
+Type <b style="background-color:purple; color:black;">'readSomething'</b> to read my work!
+Type <b style="background-color:purple; color:black;">'socialWork'</b> for info on community service [Looking for collab]
+<b>Type <b style="background-color:purple; color:black;">'windmill' </b>or <b style="background-color:purple; color:black;">'chocolate'</b> or <b style="background-color:purple; color:black;">'music'</b> or <b style="background-color:purple; color:black;">'blood'</b> for my project in a snippet</b>
+Type <b style="background-color:purple; color:black;">'currentWork'</b> for... well my current project!
+Type <b style="background-color:purple; color:black;">'repo'</b> or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+Type<b style="background-color:purple; color:black;"> 'weather [city]' </b>for the weather.
 `;
 };
