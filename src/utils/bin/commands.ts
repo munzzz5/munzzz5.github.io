@@ -130,6 +130,10 @@ export const blood = async (args: string[]): Promise<string> => {
 export const music = async (args: string[]): Promise<string> => {
   return `Muzik247 Pvt. Ltd. : 
         * Description - Made a series of softwares which aided in the data collection and storage process
+  
+        * Also currently working on spotify audio features to group music
+          by mood and understand the music markets of regions of India.
+
         * Tools used - Python Tkinter, Youtube data v3 API's, OAuth2, pandas
         * Team size: 4
         * Manager: Ruchika Gupta: +918056012500
