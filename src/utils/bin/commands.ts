@@ -170,7 +170,7 @@ export const chocolate = async (args: string[]): Promise<string> => {
        `;
 };
 
-export const currentWork = async (args: string[]): Promise<string> => {
+export const currentwork = async (args: string[]): Promise<string> => {
   return `
   <b style="background-color:green;color:black;">Komplete : </b>
         * Description - Developing an environment which rewards and habituates productivity
