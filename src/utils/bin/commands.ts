@@ -177,7 +177,7 @@ export const currentWork = async (args: string[]): Promise<string> => {
                         sell the data as products back to you, rather than other :P
         * Tools used - NLP (Spacy, HuggingFaceModels), Django, Flutter, Firebase
         * Team size: 2
-        * Manager: <u><a href="${window.open(`mailto:${config.email}`)}">Me</a></u>
+        * Manager: <u><a href="mailto:${config.email}">Me</a></u>
   
   
        `;
