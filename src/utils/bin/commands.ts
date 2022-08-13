@@ -117,7 +117,7 @@ export const whoami = async (args: string[]): Promise<string> => {
 
 
 export const blood = async (args: string[]): Promise<string> => {
-  return `Community Service Experience : 
+  return `<b style="background-color:green;color:black;">Community Service Experience : </b>
           * Youth Red Cross Member - Manage blood donations,
                               and awareness/donation based events for
                               betterment of the community.
@@ -128,9 +128,9 @@ export const blood = async (args: string[]): Promise<string> => {
        `;
 };
 export const music = async (args: string[]): Promise<string> => {
-  return `Muzik247 Pvt. Ltd. : 
+  return `<b style="background-color:green;color:black;">Muzik247 Pvt. Ltd. : </b>
         * Description - Made a series of softwares which aided in the data collection and storage process
-  
+
         * Also currently working on spotify audio features to group music
           by mood and understand the music markets of regions of India.
 
@@ -142,7 +142,7 @@ export const music = async (args: string[]): Promise<string> => {
        `;
 };
 export const windmill = async (args: string[]): Promise<string> => {
-  return `Texonic Pvt. Ltd. : 
+  return `<b style="background-color:green;color:black;">Texonic Pvt. Ltd. :</b> 
         * Description - Worked on analysis 11 year olf data to provide insights on 600-800KWH machine performance
                         Which allowed us to predict the performance of the machine in the future
                         And seek clarification from the AMC contractors. 
@@ -155,7 +155,7 @@ export const windmill = async (args: string[]): Promise<string> => {
        `;
 };
 export const chocolate = async (args: string[]): Promise<string> => {
-  return `Kocoatrait Pvt. Ltd. : 
+  return `<b style="background-color:green;color:black;">Kocoatrait Pvt. Ltd. :</b> 
         * Description - Build a series of machine prototypes ranging from
                         1. <u><a href="https://github.com/munzzz5/temperaturemonitor">Environment monitoring system</a></u>
                         2. Husk removal machine 
@@ -171,7 +171,7 @@ export const chocolate = async (args: string[]): Promise<string> => {
 };
 
 export const currentWork = async (args: string[]): Promise<string> => {
-  return `Komplete : 
+  return `<b style="background-color:green;color:black;">Komplete : </b>
         * Description - Developing an environment which rewards and habituates productivity
                         and helping you understand your subsconscience habits and 
                         sell the data as products back to you, rather than other :P
