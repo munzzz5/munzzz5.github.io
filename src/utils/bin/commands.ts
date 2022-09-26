@@ -192,11 +192,12 @@ if you want to help, you can type 'donate'.`;
 };
 export const ls = async (args: string[]): Promise<string> => {
   return `
-  listing what I want:
-  1. Songs - Ali Gatie, Hasan Raheem, and Daftpunk, Parudeesa (Malayalam song), Trance (movie) songs
+  listing most current me:
+  1. Songs - Ali Gatie, Hasan Raheem, and Daftpunk, 90s bollywood
   2. I play football and badminton sometimes 
-  3. I'm an active person at home and don't like going out much.
-  4. I love dota2 -  <u><a href="https://s.team/p/cnnq-gffd/BWJPVJWQ" target="_blank">DaiMachaDai</a></u>
+  3. I always have 2 side projects at any point in time and i like keeping my home maintained electrically, plumbing, and carpentry wise.
+  4. I love dota 2 -  <u><a href="https://s.team/p/cnnq-gffd/BWJPVJWQ" target="_blank">DaiMachaDai</a></u>
+  5. I have 3 Hearts Tom, Jerry and Noorie (2 doggos 1 cat)
 
   `;
 };

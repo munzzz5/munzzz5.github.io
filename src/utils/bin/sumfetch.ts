@@ -71,14 +71,14 @@ MMMM         MMMM           MMMM           MM
       )\ |  )\ |                -----------                       
      // \\ // \\                 <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>                      
     ||_  \\|_  \\_               <u><a href="${config.social.medium}" target="_blank">My Articles</a></u>                              
-    '--' '--'' '--'              <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>                         
-                                 <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>                        
+    '--' '--'' '--'              <u><a href="${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>                         
+                                 <u><a href="${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>                        
                                 -----------                        
                                 -----------               
                                  CONTACT                    
                                  <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>             
-                                 <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>                
-                                 <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>           
+                                 <u><a href="${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>                
+                                 <u><a href="${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>           
                                 -----------                        
 `
   }
@@ -93,8 +93,8 @@ MMMM         MMMM           MMMM           MM
 ▐▓                                 ▐▓       -----------
 ▐▓        > C A M E L C A S E      ▐▓        CONTACT 
 ▐▓                                 ▐▓        <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
-▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓        <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
-   ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓           <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
+▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓        <u><a href="${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
+   ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓           <u><a href="${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓           -----------
       ▓▓▓   ▐▓▓   ▓▓   ▓▓▓   ▓▓▀            
         ▀▓▓▄▄ ▀▓▓▄▓▓▄▓▓▓▄▄▓▓▀               
