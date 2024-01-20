@@ -71,8 +71,8 @@ MMMM         MMMM           MMMM           MM
       )\ |  )\ |                -----------                       
      // \\ // \\                 <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>                      
     ||_  \\|_  \\_               <u><a href="${config.social.medium}" target="_blank">My Articles</a></u>                              
-    '--' '--'' '--'              <u><a href="${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>                         
-                                 <u><a href="${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>                        
+    '--' '--'' '--'             
+                                                      
                                 -----------                        
                                 -----------               
                                  CONTACT                    
