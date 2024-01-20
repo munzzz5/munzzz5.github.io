@@ -65,21 +65,14 @@ MMMM         MMMM           MMMM           MM
                                 -----------                        
                   ,,__           ABOUT                                              
         ..  ..   / o._)          <b style=background-color:green;>${config.name}</b>                        
-       /--'/--\  \-'||           <u><a href="${config.location}" target="_blank">Born and Raised, Madras, India</a></u>                       
+       /--'/--\  \-'||           <u><a href="${config.location2}" target="_blank">Currently in Pittsburgh, PA </a></u>| <u><a href="${config.location} Born and Raised, Madras, India</a></u>                       
       /        \_/ / |           <u><a href="${config.resume_url}" target="_blank">Resume</a></u>                       
     .'\  \__\  __.'.'           爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>                       
       )\ |  )\ |                -----------                       
-     // \\ // \\                 <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>                      
-    ||_  \\|_  \\_               <u><a href="${config.social.medium}" target="_blank">My Articles</a></u>                              
-    '--' '--'' '--'             
-                                                      
-                                -----------                        
-                                -----------               
-                                 CONTACT                    
-                                 <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>             
+     // \\ // \\                 CONTACT  
+    ||_  \\|_  \\_               <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>                                          
+    '--' '--'' '--'              <u><a href="${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>                      
                                  <u><a href="${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>                
-                                 <u><a href="${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>           
-                                -----------                        
 `
   }
   else {
