@@ -48,12 +48,12 @@ export const about = async (args: string[]): Promise<string> => {
 <b style="background-color:yellow; color:black; ">Hi, I am ${config.name}.</b> 
 Welcome to my website!
 I'm a developer with skills in:
-<b style="color:#ff3399;">1. Python [Django, general OOPS, API consumption, Pandas, Matplotlib]</b>
+<b style="color:#ff3399;">1. Python: Django, Pandas, Visualisations | Project titles: "Artist performance indicators for odia industry",</br> "Energy allocation algorithm for many to many generator and consumer optimized on price",</br> "Reports on demographic patterns of movie release in Odisha", </br> "Automated event triggers for new patterns in new OR old content based on views, likes or comments"</b>
 <b style="color:#ff3399;">2. dotnet core 6 MVC with entity framework</b>
 <b style="color:#ff3399;">3. Flutter dart [basic]</b>
 <b style="color:#ff3399;">4. I have 2 doggos and one cat. Tom, Jerry, Noorie.</b>
-<b style="color:#ff3399;">5. I brag that i got accepted into GitHub CoPilots Beta batch.</b>
-<b style="color:#ff3399;">6. I love playing dota2.</b>
+<b style="color:#ff3399;">5. Working on my finance and strategy at Carnegie Mellon University, Pittsburgh.</b>
+<b style="color:#ff3399;">6. I love playing dota 2.</b>
 More about me:
 'sumfetch' - short summary.
 'resume' - my latest resume.
@@ -140,8 +140,16 @@ export const music = async (args: string[]): Promise<string> => {
         * Team size: 4
 
         * Manager: Ruchika Gupta: +918056012500
+
+        * -----------------------------------------
+        
+        * Description - Planned the creation of data pipelines and managed the team to account for system robustness and storage forecasting to support pipelines. </br>Created triggers for particular patterns and thresholds in real time performance of content, to strategize for further promotion efficiently. 
   
-  
+        * Tools used - Python pandas & searborn, Youtube data v3 API's, Linux shell scripts and cron jobs
+
+        * Team size: 4
+
+        * Role: Leadership
        `;
 };
 export const windmill = async (args: string[]): Promise<string> => {
