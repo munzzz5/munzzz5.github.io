@@ -138,7 +138,9 @@ export const music = async (args: string[]): Promise<string> => {
         * Team size: 4
 
         * Role: Leadership
-        * -----------------------------------------
+        
+        -------------------------------------------
+        
         * Description - designed a software to create spotify playlist based on audio features
 
         * Tools used - Python Tkinter, Youtube data v3 API's, 
@@ -151,10 +153,12 @@ export const music = async (args: string[]): Promise<string> => {
 };
 export const windmill = async (args: string[]): Promise<string> => {
   return `<b style="background-color:green;color:black;">Texonic Pvt. Ltd. :</b> 
-        * Description - Managed a team to design and develop energy allocation software to optimally allocate energy to our clients based on consumption need and other client specific factors</br>Reported on asset life patterns and seasonal patterns of windmills
+        * Description - Managed a team to design and develop energy allocation software </br>to optimally allocate energy to our clients based on consumption need and other client specific factors 
+          Reported on asset life patterns and seasonal patterns of windmills
+        
         * Tools used - Python pandas, numpy, matplotlib, plotly
-        * Team size: 1
-        * 
+        * Team size: 4
+        
         * Manager: Naveen Bhandari: +919840068000
   
   
@@ -167,7 +171,6 @@ export const chocolate = async (args: string[]): Promise<string> => {
                         2. Husk removal variable agitator machine 
                         3. Temperature decline capturing to test various storage mediums and conclude on the best one
                         
-  
                         for India's First Chocolate Taster <u><a href="https://www.linkedin.com/in/beantobar/">L. Nitin Chordia</a></u> 
         * Tools used - Python pandas, numpy, matplotlib, plotly
         * Team size: 1
