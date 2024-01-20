@@ -21,14 +21,14 @@ export const help = async (args: string[]): Promise<string> => {
 Type <b style="color:#00ccff;">'sumfetch'</b> to display summary.
 Type <b style="color:#00ccff;">'about'</b> for small relevant info on me.
 Type <b style="color:#00ccff;">'resume'</b> to go to my resume.
+Type <b style="color:#00ccff;">'current'</b> for... well my current project!
+<b>Type <b style="color:#00ccff;">'windmill'</b> or <b style="color:#00ccff;">'chocolate'</b> or <b style="color:#00ccff;">'music'</b> or <b style="color:#00ccff;">'blood'</b> for my project in a snippet</b>
 Type <b style="color:#00ccff;">'sumfetch'</b> to display summary.
 Type <b style="color:#00ccff;">'readSomething'</b> to read my work!
 Type <b style="color:#00ccff;">'socialWork'</b> for info on community service [Looking for collab]
-<b>Type <b style="color:#00ccff;">'windmill'</b> or <b style="color:#00ccff;">'chocolate'</b> or <b style="color:#00ccff;">'music'</b> or <b style="color:#00ccff;">'blood'</b> for my project in a snippet</b>
-Type <b style="color:#00ccff;">'currentWork'</b> for... well my current project!
+Type <b style="color:#00ccff;">'komplete'</b>for my project "komplete" with Anurag Atulya and Paritosh Sapre.
 Type <b style="color:#00ccff;">'repo'</b> or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 Type <b style="color:#00ccff;">'weather city'</b> for the weather.
-
 `;
 };
 
@@ -48,11 +48,11 @@ export const about = async (args: string[]): Promise<string> => {
 <b style="background-color:yellow; color:black; ">Hi, I am ${config.name}.</b> 
 Welcome to my website!
 I'm a developer with skills in:
-<b style="color:#ff3399;">1. Python: Django, Pandas, Visualisations | Project titles: "Artist performance indicators for odia industry",</br> "Energy allocation algorithm for many to many generator and consumer optimized on price",</br> "Reports on demographic patterns of movie release in Odisha", </br> "Automated event triggers for new patterns in new OR old content based on views, likes or comments"</b>
-<b style="color:#ff3399;">2. dotnet core 6 MVC with entity framework</b>
-<b style="color:#ff3399;">3. Flutter dart [basic]</b>
-<b style="color:#ff3399;">4. I have 2 doggos and one cat. Tom, Jerry, Noorie.</b>
-<b style="color:#ff3399;">5. Working on my finance and strategy at Carnegie Mellon University, Pittsburgh.</b>
+<b style="color:#ff3399;">1. Working on my finance and strategy at Carnegie Mellon University, Pittsburgh.</b>
+<b style="color:#ff3399;">2. Python: Django, Pandas, Visualisations | Project titles: "Artist performance indicators for odia industry",</br> "Energy allocation algorithm for many to many generator and consumer optimized on price",</br> "Reports on demographic patterns of movie release in Odisha", </br> "Automated event triggers for new patterns in new OR old content based on views, likes or comments"</b>
+<b style="color:#ff3399;">3. dotnet core 6 MVC with entity framework | Project title: <a href="https://github.com/munzzz5/issue_v2">"Issue Management System"</a></b>
+<b style="color:#ff3399;">4. Flutter dart [basic] (type "komplete")</b>
+<b style="color:#ff3399;">5. I have 2 doggos and one cat. Tom, Jerry, Noorie.</b>
 <b style="color:#ff3399;">6. I love playing dota 2.</b>
 More about me:
 'sumfetch' - short summary.
@@ -124,24 +124,12 @@ export const blood = async (args: string[]): Promise<string> => {
                               betterment of the community in the vicinity.
           * Technical Work - <u><a href="https://github.com/munzzz5/BloodDonation">Android App for BloodManagementSystem (BMS)</a></u>
           * Total Blood Donations arranged - 500+
-          * Total Blood Donations made - 30+
+          * Total Blood Donations made - 25+
           * Team Size - 25+
        `;
 };
 export const music = async (args: string[]): Promise<string> => {
   return `<b style="background-color:green;color:black;">Muzik247 Pvt. Ltd. : </b>
-        * Description - Made a series of softwares which aided in the data collection and storage process
-
-        * Also currently working on spotify audio features to group music
-          by mood and understand the music markets of regions of India.
-
-        * Tools used - Python Tkinter, Youtube data v3 API's, 
-          OAuth2, pandas, Spotipy
-        * Team size: 4
-
-        * Manager: Ruchika Gupta: +918056012500
-
-        * -----------------------------------------
         
         * Description - Planned the creation of data pipelines and managed the team to account for system robustness and storage forecasting to support pipelines. </br>Created triggers for particular patterns and thresholds in real time performance of content, to strategize for further promotion efficiently. 
   
@@ -150,13 +138,20 @@ export const music = async (args: string[]): Promise<string> => {
         * Team size: 4
 
         * Role: Leadership
+        * -----------------------------------------
+        * Description - designed a software to create spotify playlist based on audio features
+
+        * Tools used - Python Tkinter, Youtube data v3 API's, 
+          OAuth2, pandas, Spotipy
+        * Team size: 4
+
+        * Manager: Ruchika Gupta: +918056012500
+
        `;
 };
 export const windmill = async (args: string[]): Promise<string> => {
   return `<b style="background-color:green;color:black;">Texonic Pvt. Ltd. :</b> 
-        * Description - Worked on analysis 11 year old data to provide insights of 600-800KWH WEG performance
-                        Which allowed us to predict the performance of the machine in the future
-                        And seek clarification from the AMC contractors. 
+        * Description - Managed a team to design and develop energy allocation software to optimally allocate energy to our clients based on consumption need and other client specific factors</br>Reported on asset life patterns and seasonal patterns of windmills
         * Tools used - Python pandas, numpy, matplotlib, plotly
         * Team size: 1
         * 
@@ -167,10 +162,11 @@ export const windmill = async (args: string[]): Promise<string> => {
 };
 export const chocolate = async (args: string[]): Promise<string> => {
   return `<b style="background-color:green;color:black;">Kocoatrait Pvt. Ltd. :</b> 
-        * Description - Built a series of machine prototypes ranging from:
+        * Description - Built machine prototypes:
                         1. <u><a href="https://github.com/munzzz5/temperaturemonitor">Environment monitoring system</a></u>
-                        2. Husk removal machine 
-                        3. Internal Company Sofwares for Marketing. 
+                        2. Husk removal variable agitator machine 
+                        3. Temperature decline capturing to test various storage mediums and conclude on the best one
+                        
   
                         for India's First Chocolate Taster <u><a href="https://www.linkedin.com/in/beantobar/">L. Nitin Chordia</a></u> 
         * Tools used - Python pandas, numpy, matplotlib, plotly
@@ -180,8 +176,7 @@ export const chocolate = async (args: string[]): Promise<string> => {
   
        `;
 };
-
-export const currentwork = async (args: string[]): Promise<string> => {
+export const komplete = async (args: string[]): Promise<string> => {
   return `
   <b style="background-color:green;color:black;">Komplete : </b>
         * Description - Developing an environment which rewards and forms a habit of productivity
@@ -194,6 +189,15 @@ export const currentwork = async (args: string[]): Promise<string> => {
   
        `;
 };
+export const current = async (args: string[]): Promise<string> => {
+  return `
+   <b style="background-color:green;color:black;">Carnegie Mellon University</b>
+   * Title - <u><a href="https://engineering-innovation-management.cmu.edu/">Master in Engineering & Technology Innovation Management</a></u>
+   * Description - to manage accelerated innovation and sustain it in a meaningful way using tools that are industry specific and agnostic
+   * Why I chose this - I've been trying many ideas and would to see them to fruition, this course gives me a taste for:</br>1)Conceptually and financially validate an idea</br>2) Plan and strategize to take decision which either for gain or avoid risks
+   
+  `;
+};
 export const cd = async (args: string[]): Promise<string> => {
   return `unfortunately, i cannot afford more directories.
 if you want to help, you can type 'donate'.`;
@@ -201,9 +205,9 @@ if you want to help, you can type 'donate'.`;
 export const ls = async (args: string[]): Promise<string> => {
   return `
   listing most current me:
-  1. Songs - Ali Gatie, Hasan Raheem, and Daftpunk, 90s bollywood
-  2. I play football and badminton sometimes 
-  3. I always have 2 side projects at any point in time and i like keeping my home maintained electrically, plumbing, and carpentry wise.
+  1. MS - Engineering & Technology Innovation Management at Carnegie Mellon University
+  2. Songs - <u><a href="https://music.youtube.com/playlist?list=LRYRExIbJ03RpHkVuIuFQq14TEzqVXCfNzwqK">Close your eyes and let me take you on a journey</a></u>
+  3. I play football and badminton sometimes
   4. I love dota 2 -  <u><a href="https://s.team/p/cnnq-gffd/BWJPVJWQ" target="_blank">DaiMachaDai</a></u>
   5. I have 3 Hearts Tom, Jerry and Noorie (2 doggos 1 cat)
 
@@ -260,13 +264,14 @@ export const banner = (args?: string[]): string => {
 </b>
 <b style="background-color:white; color:black;"> TYPE THE COMMANDS IN THE PROMPT </b>
 Type <b style="background-color:purple; color:black;">'help'</b> to see the list of available commands.
+Type <b style="background-color:purple; color:black;">'current'</b> for... well my current project!
+Type <b style="background-color:purple; color:black;">'sumfetch'</b> to display summary.
 Type <b style="background-color:purple; color:black;">'about' </b>for small relevant info on me.
 Type <b style="background-color:purple; color:black;">'resume' </b>to go to my resume.
-Type <b style="background-color:purple; color:black;">'sumfetch'</b> to display summary.
-Type <b style="background-color:purple; color:black;">'readSomething'</b> to read my work!
-Type <b style="background-color:purple; color:black;">'socialWork'</b> for info on community service [Looking for collab]
 <b>Type <b style="background-color:purple; color:black;">'windmill' </b>or <b style="background-color:purple; color:black;">'chocolate'</b> or <b style="background-color:purple; color:black;">'music'</b> or <b style="background-color:purple; color:black;">'blood'</b> for my project in a snippet</b>
-Type <b style="background-color:purple; color:black;">'currentWork'</b> for... well my current project!
+Type <b style="background-color:purple; color:black;">'socialWork'</b> for info on community service [Looking for collab]
+Type<b style="background-color:purple; color:black;"> 'komplete' </b>for my project "komplete" with Anurag Atulya and Paritosh Sapre.
+Type <b style="background-color:purple; color:black;">'readSomething'</b> to read my work!
 Type <b style="background-color:purple; color:black;">'repo'</b> or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 Type<b style="background-color:purple; color:black;"> 'weather [city]' </b>for the weather.
 `;
