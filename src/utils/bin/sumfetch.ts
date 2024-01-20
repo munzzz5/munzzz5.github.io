@@ -65,7 +65,7 @@ MMMM         MMMM           MMMM           MM
                                 -----------                        
                   ,,__           ABOUT                                              
         ..  ..   / o._)          <b style=background-color:green;>${config.name}</b>                        
-       /--'/--\  \-'||           <u><a href="${config.location2}" target="_blank">Currently in Pittsburgh, PA </a></u>| <u><a href="${config.location} Born and Raised, Madras, India</a></u>                       
+       /--'/--\  \-'||           <u><a href="${config.location2}" target="_blank">Currently in Pittsburgh, PA </a></u> | <u><a href="${config.location}" target="_blank">Madras, India</a></u>                       
       /        \_/ / |           <u><a href="${config.resume_url}" target="_blank">Resume</a></u>                       
     .'\  \__\  __.'.'           爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>                       
       )\ |  )\ |                -----------                       
