@@ -183,7 +183,7 @@ export const komplete = async (args: string[]): Promise<string> => {
                         and helps understand your subsconscious habits  
                         and give the data back to you in a meaningful format, rather than the status quo rn :P
         * Tools used - NLP (Spacy, HuggingFaceModels), Django, Flutter, Firebase
-        * Team size: 2
+        * Team size: 3
         * Manager: <u><a href="mailto:${config.email}">Me</a></u>
   
   
